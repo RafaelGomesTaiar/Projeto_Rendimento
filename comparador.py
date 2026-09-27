@@ -10,3 +10,7 @@ rendimento_cdi = calcular_rendimento(valor, 0.105, meses)
 
 print(f'Rendimento Poupança: R$ {rendimento_poupanca:.2f}')
 print(f'Rendimento CDI: R$ {rendimento_cdi:.2f}')
+
+# Adicionando o cálculo do MXRF11
+rendimento_mxrf11 = calcular_rendimento(valor, 0.12, meses)
+print(f'Rendimento MXRF11: R$ {rendimento_mxrf11:.2f}')
